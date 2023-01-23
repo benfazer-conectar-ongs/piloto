@@ -1,0 +1,198 @@
+.card-grid {
+  margin: 5vh 5vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25vw, 1fr));
+  grid-gap: 5em;
+}
+
+.card {
+  max-width: 25vw;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  border-radius: 2vw;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  height: 20vh;
+  object-fit: cover;
+}
+
+.card-header img {
+  width: 100%;
+  height: 20vh;
+  object-fit: cover;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 1rem;
+  min-height: 10vh;
+}
+
+.card-body p {
+  text-align: justify;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+/* Responsividade*/
+@media (max-width: 600px) {
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    border-radius: 1%;
+    max-width: 100%;
+  }
+
+  .user {
+    display: none;
+  }
+}
+
+/* categorias dos cards */
+.tag {
+  background: #cccccc;
+  border-radius: 4rem;
+  font-size: 12px;
+  margin: 0;
+  color: #fff;
+  padding: .5rem 1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.tag-tecnologia {
+  background-color: var(--tag-tecnologia);
+}
+
+.tag-educacao {
+  background-color: var(--tag-educacao);
+}
+
+.tag-animais {
+  background-color: var(--tag-animais);
+}
+
+.card-body p {
+  font-size: 13px;
+  margin: 0 0 1rem;
+}
+
+.user {
+  display: flex;
+}
+
+.user img {
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 3rem;
+  height: 3rem;
+  margin-right: 1rem;
+}
+
+.user-info mini-title {
+  font-size: xx-large;
+}
+
+/* icones das ODS */
+.sdg-tags {
+  margin-top: .5rem;
+  /* display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  column-gap: .2em;
+}
+
+.sdg {
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: .2rem;
+}
+
+.sdg-tags .sdg1 {
+  background-color: var(--sdg1);
+}
+
+.sdg-tags .sdg2 {
+  background-color: var(--sdg2);
+}
+
+.sdg-tags .sdg3 {
+  background-color: var(--sdg3);
+}
+
+.sdg-tags .sdg4 {
+  background-color: var(--sdg3);
+}
+
+.sdg-tags .sdg5 {
+  background-color: var(--sdg5);
+}
+
+.sdg-tags .sdg6 {
+  background-color: var(--sdg6);
+}
+
+.sdg-tags .sdg7 {
+  background-color: var(--sdg7);
+}
+
+.sdg-tags .sdg8 {
+  background-color: var(--sdg8);
+}
+
+.sdg-tags .sdg9 {
+  background-color: var(--sdg9);
+}
+
+.sdg-tags .sdg10 {
+  background-color: var(--sdg10);
+}
+
+.sdg-tags .sdg11 {
+  background-color: var(--sdg11);
+}
+
+.sdg-tags .sdg12 {
+  background-color: var(--sdg12);
+}
+
+.sdg-tags .sdg13 {
+  background-color: var(--sdg13);
+}
+
+.sdg-tags .sdg14 {
+  background-color: var(--sdg14);
+}
+
+.sdg-tags .sdg15 {
+  background-color: var(--sdg15);
+}
+
+.sdg-tags .sdg16 {
+  background-color: var(--sdg16);
+}
+
+.sdg-tags .sdg17 {
+  background-color: var(--sdg17);
+}
+

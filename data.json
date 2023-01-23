@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "tag": "tecnologia",
+    "title": "título 1",
+    "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "name": "tech futuro",
+    "logo": "benfazer_logo.png",
+    "banner": "sky.jpg",
+    "sdg": ["sdg1", "sdg2", "sdg3"]
+  },
+  {
+    "id": 2,
+    "tag": "animais",
+    "title": "título 2",
+    "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "name": "animais fofos",
+    "logo": "benfazer_logo.png",
+    "banner": "sky.jpg",
+    "sdg": ["sdg1", "sdg13", "sdg15"]
+  },
+  {
+    "id": 3,
+    "tag": "educação",
+    "title": "título 3",
+    "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "name": "ong tech ensino",
+    "logo": "benfazer_logo.png",
+    "banner": "sky.jpg",
+    "sdg": ["sdg8", "sdg12", "sdg17"]
+},
+{
+    "id": 4,
+    "tag": "assistência social",
+    "title": "título 4",
+    "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "name": "ong assistência",
+    "logo": "benfazer_logo.png",
+    "banner": "sky.jpg",
+    "sdg": ["sdg8", "sdg12", "sdg13"]
+},
+{
+    "id": 5,
+    "tag": "outro",
+    "title": "título 5",
+    "text": "lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "name": "ong outra",
+    "logo": "benfazer_logo.png",
+    "banner": "sky.jpg",
+    "sdg": ["sdg3", "sdg7", "sdg13"]
+}
+]
